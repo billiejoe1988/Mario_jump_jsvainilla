@@ -23,15 +23,8 @@
     position: absolute;
     bottom: 0;
     width: 80px;
-    animation: pipe-animation 2s infinite linear;
+    animation: pipe-animation 4s infinite linear;
 }
-
-.pipe2{
-    position: absolute;
-    bottom: 0;
-    width: 80px;
-    animation: pipe-animation 5s infinite linear;
-} 
 
 .jump {
     animation: jump 500ms ease-out;
@@ -48,14 +41,6 @@
     }
     to{
         right:100%
-    }
-}
-@keyframes pipe-animation{
-    from{
-        right:-80px;
-    }
-    to{
-        right:110%
     }
 }
 @keyframes jump{
